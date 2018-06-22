@@ -1,0 +1,30 @@
+body{
+    background: url(photo/2.jpg) no-repeat;
+    background-size: 100%;
+}
+.obem{
+    color: black;
+text-align: center;
+font-size: 50px;
+}
+p{
+    color: black;
+    font-size: 25px;
+    
+}
+.photo{
+    
+ position: fixed;
+    top: 100px;
+    right: 50px;
+    width: 25%;   
+
+}
+button{
+    
+    background: none;
+   
+    border: none;
+
+    
+}

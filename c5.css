@@ -1,0 +1,48 @@
+body{
+    background: url(photo/2.jpg) fixed;
+    background-size: 100%;
+    
+}
+.kvadrat{
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+
+.image{
+    position:absolute;
+	bottom: 50px;
+	right: 350px;
+}
+
+.text{
+    text-align: lighter;
+    font-size: 25px;
+    color: back;
+  overflow: hidden;
+  text-shadow: 0 0 white;
+  color: black;
+  transition: all 1s;
+  }
+
+  .text:hover {
+    text-shadow: 
+                 500px 0px white,
+                 0 0 white;
+    }
+	button{
+    background: none;
+    border:none;
+border-radius: 50px;
+
+
+    
+}
+button img{
+    height: 90px;
+    width: 90px;
+ border-radius: 70%;
+    
+}

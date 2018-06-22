@@ -1,0 +1,51 @@
+﻿ body {
+    background: url(photo/1.1.jpg) fixed;
+    background-size: 90%;
+    
+   }
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu a{
+	background:#B22222;
+	color: #F5F5DC;
+	padding: 20px;
+	display: block;
+	border-bottom: 2px solid #F5F5DC;
+	transition: 0.5s all;
+	font-family:Florence, cursive;
+font-size:20px;
+}
+.sidebar{
+	width: 350px;
+	
+	margin: 70px;
+}
+.menu a:hover{
+	background: #FA8072;
+	padding: 20px 0 20px 20px;
+}
+
+
+.menu li .v_menu li a{
+	border-radius: 0;
+}
+.p_menu{position: relative;
+
+}
+.v_menu{
+	position: absolute;
+	width: 100%;
+	left: 100%;
+	top: -9999px;
+	opacity: 0;
+	border-left: 10px solid transparent;
+	transition: 0.5s opacity;
+
+}
+.p_menu:hover .v_menu{
+	opacity: 1;
+	top: 0;
+}

@@ -1,0 +1,42 @@
+body{
+    background: url(photo/2.jpg) fixed;
+    background-size: 100%;
+    
+}
+.text{
+    position:relative;
+    top:20px; 
+    color: rad;
+	text-align:left;
+	font-size:25px;
+	font-weight: 500;
+}
+
+.lin{
+        width: 1200px;
+    height: 40px;
+    color: rad;
+    font-size: 50px;
+    right: 400px;
+    text-align: center;
+    font-style:  oblique;
+	font-weight: 600;
+    
+}
+
+.lin:hover{
+    transition: all 1s ease;
+    color:black ;
+}
+
+
+.photo{
+    position: absolute;
+   bottom: 50px;
+	right: 50px;	
+    width: 500;
+top:100
+}
+
+
+
